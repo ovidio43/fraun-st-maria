@@ -1,0 +1,111 @@
+html{
+    margin: 0;
+    body{
+        margin: 0;
+        background: url('../images/fondo.jpg')no-repeat center center / cover;
+        font-size: 14px;
+    }
+} 
+a{
+    color: #000;
+    text-decoration: none;
+}
+.current-menu-item > a{
+    color:#b6b6b6;
+}
+h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+ul{
+    padding-left: 15px;
+}
+/*********contrdiciendo el slider*****************/
+.bx-wrapper{
+    margin: 0;
+    .bx-controls{
+        display: none;
+    }
+    .bx-viewport{
+        margin: 0;
+        border: 0;
+        left: 0;
+        .bxslider{
+            margin: 0;
+        }
+    }
+}
+/***************************************************/
+.header{
+    background: #FFF;
+    height: 112px;    
+    .content-header{
+        width: 1000px;
+        margin: 0 auto;                
+        .logo{
+            margin: 0;
+            float:  left;
+        }
+        .nav{  
+            float: left;
+            ul{ 
+                list-style: none;
+                margin: 72px 0 0;             
+                li{
+                    display: inline-block;
+                    padding: 0 10px;
+                    border-right:  1px solid;
+                }
+                :last-child{
+                    border-right: none;
+                }
+            }
+        }
+    }
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;  
+    margin-top: 17px;    
+    .img-slide{
+        background: url('../images/transpa-fondo.png') ;
+        padding: 13px;
+        margin-bottom:20px;
+    }
+    .inner{
+        padding: 17px;
+        background: #FFF;
+        display:inline-block;
+        .inner-content{            
+            float: left;
+            margin-right: 15px;
+            width: 594px;
+            font-size: 18px;
+            color: #494949;
+
+        }
+        .inner-sidebar{
+            width: 326px;
+            float: left;
+            background: #EF9B9B;
+            padding: 15px;
+            color: #fff;            
+            img{
+                border: 2px solid #fff;
+                display: block;
+                margin: 0 auto;
+                max-width: 100%;
+                width: auto;
+            }
+            ul{
+                padding-left: 25px;
+            }
+        }
+    }
+}
+.footer{
+    .logo{
+        text-align: center;
+    }
+}
