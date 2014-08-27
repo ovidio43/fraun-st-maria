@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="img-slide">
+<!--<section class="img-slide">
     <ul class="bxslider">
         <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/foto_homeFG.jpeg" /></a></li>
         <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/foto_homeFG.jpeg" /></a></li>
@@ -7,7 +7,7 @@
         <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/foto_homeFG.jpeg" /></a></li>
         <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/foto_homeFG.jpeg" /></a></li>        
     </ul>    
-</section>
+</section>-->
 <section class="inner">
     <div class="inner-content">
         <?php

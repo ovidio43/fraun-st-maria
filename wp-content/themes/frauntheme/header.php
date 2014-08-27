@@ -31,6 +31,7 @@
         <!-- bxSlider CSS file -->
         <link href="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
         <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet">
+        <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet">        
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>

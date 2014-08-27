@@ -4,6 +4,7 @@ html{
         margin: 0;
         background: url('../images/fondo.jpg')no-repeat center center / cover;
         font-size: 14px;
+        font-family: Times New Roman;
     }
 } 
 a{
@@ -66,8 +67,7 @@ ul{
 }
 .content{
     width: 1000px;
-    margin: 0 auto;  
-    margin-top: 17px;    
+    margin: 28px auto 0;   
     .img-slide{
         background: url('../images/transpa-fondo.png') ;
         padding: 13px;
@@ -90,16 +90,28 @@ ul{
             float: left;
             background: #EF9B9B;
             padding: 15px;
-            color: #fff;            
-            img{
-                border: 2px solid #fff;
-                display: block;
-                margin: 0 auto;
-                max-width: 100%;
-                width: auto;
-            }
-            ul{
-                padding-left: 25px;
+            color: #fff;
+            ul{ 
+                margin: 0;
+                list-style: none;
+                padding: 0;
+                li{                    
+                    display: inline-block;
+                    width: 49%;
+                    margin-bottom: 5px;
+
+                    a{
+                        img{
+                            border: 1px solid #fff;
+                            display: block;
+                            margin: 0 auto;
+                            max-height: 100px;
+                            min-height: 100px;
+                            width: 97%;
+                        }  
+                    }
+
+                }
             }
         }
     }
