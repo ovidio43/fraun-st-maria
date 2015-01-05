@@ -31,15 +31,15 @@
         <!-- bxSlider CSS file -->
         <link href="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
         <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet">
-        <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet">        
+        <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/js/fancyBox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet">        
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
         <header class="header">
             <div class="content-header">
-                <figure class="logo">
+                <a href="<?php bloginfo('url'); ?>" class="logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/FG_Logo.png" width="130">
-                </figure>
+                </a>
                 <nav class="nav">
                     <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'nav-menu')); ?>
                 </nav>

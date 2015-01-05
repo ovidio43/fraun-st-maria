@@ -1,12 +1,15 @@
 html{
     margin: 0;
-    body{
-        margin: 0;
-        background: url('../images/fondo.jpg')no-repeat center center / cover;
-        font-size: 14px;
-        font-family: Times New Roman;
-    }
 } 
+body{
+    margin: 0;
+    background-image: url('../images/fondo.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 14px;
+    font-family: "Times New Roman";
+}
 a{
     color: #000;
     text-decoration: none;
@@ -16,9 +19,10 @@ a{
 }
 h1{
     font-size: 30px;
-    margin: 0;
 }
-
+h2{
+    font-size: 25px;
+}
 ul{
     padding-left: 15px;
 }
@@ -50,6 +54,7 @@ ul{
         }
         .nav{  
             float: left;
+            text-transform: uppercase;
             ul{ 
                 list-style: none;
                 margin: 72px 0 0;             
@@ -72,6 +77,10 @@ ul{
         background: url('../images/transpa-fondo.png') ;
         padding: 13px;
         margin-bottom:20px;
+        img{
+            width: 100%;
+            height: auto;
+        }
     }
     .inner{
         padding: 17px;
@@ -80,9 +89,10 @@ ul{
         .inner-content{            
             float: left;
             margin-right: 15px;
-            width: 594px;
+            width: 574px;
             font-size: 18px;
             color: #494949;
+            padding: 0 0 0 20px;
 
         }
         .inner-sidebar{
@@ -91,7 +101,7 @@ ul{
             background: #EF9B9B;
             padding: 15px;
             color: #fff;
-            ul{ 
+            ul.gallery-images{ 
                 margin: 0;
                 list-style: none;
                 padding: 0;
@@ -115,6 +125,27 @@ ul{
             }
         }
     }
+}
+.download-file{
+    display: block;
+    background-color: #393939;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    .pdf-icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+.pdf-icon{
+    width: 66px;
+    height: 64px;
+    display: block;
+    background-image: url('../images/icon-pdf.png');
 }
 .footer{
     .logo{
