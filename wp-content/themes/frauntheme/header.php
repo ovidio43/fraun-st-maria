@@ -29,6 +29,8 @@
         <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
         <![endif]-->
         <!-- bxSlider CSS file -->
+        
+        <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
         <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet">
         <link media="screen" type="text/css" href="<?php echo get_template_directory_uri(); ?>/js/fancyBox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet">        

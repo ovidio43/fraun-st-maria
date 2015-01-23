@@ -1,7 +1,7 @@
 
 <footer class="footer">
     <figure class="logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="145">
+        <!--img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="145"-->
     </figure>
 </footer>
 </div>
